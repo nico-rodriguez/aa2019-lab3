@@ -1,0 +1,127 @@
+Confusion Matrix
+                    Actual class
+                      Spruce/Fir  Lodgepole Pine  Ponderosa PineCottonwood/Willow           Aspen     Douglas-fir       Krummholz
+      Spruce/Fir           28251           13267               0               0              44               0            1338
+  Lodgepole Pine           10486           37599             532               0            1038             407              36
+  Ponderosa Pine              93            1499            4943             144              56            1330               7
+Cottonwood/Willow               0               6             474             371               0              95               0
+           Aspen             412            2266             176               0             646              58               4
+     Douglas-fir             177            1410             986              62              64            1540               0
+       Krummholz            2932             733               0               0               0               0            2720
+
+           28251           13267               0               0              44               0            1338
+           10486           37599             532               0            1038             407              36
+              93            1499            4943             144              56            1330               7
+               0               6             474             371               0              95               0
+             412            2266             176               0             646              58               4
+             177            1410             986              62              64            1540               0
+            2932             733               0               0               0               0            2720
+
+Metrics for a given class
+True Positives
+False Positives
+False Negatives
+True Negatives
+Precision
+Recall
+Fall-out
+F-Measure
+
+Metrics for class Spruce/Fir classification
+28251
+14649
+14100
+59202
+0.6585314685314685
+0.6670680739533895
+0.19835885769996345
+0.6627722841960798
+
+
+Metrics for class Lodgepole Pine classification
+37599
+12499
+19181
+46923
+0.7505090023553834
+0.6621873899260303
+0.2103429706169432
+0.7035872677258183
+
+
+Metrics for class Ponderosa Pine classification
+4943
+3129
+2168
+105962
+0.6123637264618434
+0.6951202362536915
+0.028682476097936584
+0.6511229664756636
+
+
+Metrics for class Cottonwood/Willow classification
+371
+575
+206
+115050
+0.39217758985200846
+0.6429809358752167
+0.004972972972972973
+0.48719632304661853
+
+
+Metrics for class Aspen classification
+646
+2916
+1202
+111438
+0.18135878719820325
+0.3495670995670996
+0.025499763891075083
+0.2388170055452865
+
+
+Metrics for class Douglas-fir classification
+1540
+2699
+1890
+110073
+0.36329322953526777
+0.4489795918367347
+0.023933245841166247
+0.40161689920459
+
+
+Metrics for class Krummholz classification
+2720
+3665
+1385
+108432
+0.42599843382928737
+0.6626065773447016
+0.03269489816855045
+0.5185891325071497
+
+
+Macro measures
+Precision
+Recall
+Fall-out
+F-Measure
+0.4834617482519232
+0.5897871292509806
+0.07492645504122972
+0.523385982671601
+
+
+Micro measures
+Precision
+Recall
+Fall-out
+F-Measure
+0.6748088904893818
+0.6546358926696615
+0.17912107795826948
+0.6615866331210114
+

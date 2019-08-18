@@ -1,0 +1,75 @@
+Confusion Matrix
+                    Actual class
+                               0               1               2
+               0               8               0               0
+               1               0              11               1
+               2               0               1               9
+
+               8               0               0
+               0              11               1
+               0               1               9
+
+Metrics for a given class
+True Positives
+False Positives
+False Negatives
+True Negatives
+Precision
+Recall
+Fall-out
+F-Measure
+
+Metrics for class 0 classification
+8
+0
+0
+22
+1.0
+1.0
+0.0
+1.0
+
+
+Metrics for class 1 classification
+11
+1
+1
+17
+0.9166666666666666
+0.9166666666666666
+0.05555555555555555
+0.9166666666666665
+
+
+Metrics for class 2 classification
+9
+1
+1
+19
+0.9
+0.9
+0.05
+0.8999999999999999
+
+
+Macro measures
+Precision
+Recall
+Fall-out
+F-Measure
+0.9388888888888888
+0.9388888888888888
+0.03518518518518519
+0.9388888888888888
+
+
+Micro measures
+Precision
+Recall
+Fall-out
+F-Measure
+0.9333333333333333
+0.9333333333333333
+0.03888888888888888
+0.9333333333333333
+
